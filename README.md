@@ -34,35 +34,35 @@ This app allows users to create and account and then login. Logged in user can c
  * User can Like or Dislike a workout.
  
 ### 2. Screen Archetypes
-* [Login]
-  * [User can login]
-* [Register]
-  * [User can register for an account]
-* [Stream]
-  * [Users can view workouts created by all other users]  
-* [Create]
-  * [User can create a new workout]
-* [Profile]
-  * [User can add a workout to their profile and view all the added workouts]  
+* Login
+  * User can login
+* Register
+  * User can register for an account
+* Stream
+  * Users can view workouts created by all other users  
+* Create
+  * User can create a new workout
+* Profile
+  * User can add a workout to their profile and view all the added workouts  
 
 ### 3. Navigation
 **Tab Navigation** (Tab to Screen)
-* [Home]
+* Home
   - Displays all the workouts.
-* [Create]
+* Create
   - Allows user to create a workout.
-* [Profile]
+* Profile
  -Allows the user to create a profile
 
 **Flow Navigation** (Screen to screen)
-* [Login/Register Screen]
-   * [Once  user login/Rgister shall navigate to Home screen]
-* [Home Screen]
-   * [User shall view the bottom navigation of home, create, profile]
-* [Create Screen]
-   * [User shall create the workout description with the image]
- * [Profile Screen]
-   * [User shall create the profile or view profile with]
+* Login/Register Screen
+   * Once  user login/Rgister shall navigate to Home screen
+* Home Screen
+   * User shall view the bottom navigation of home, create, profile
+* Create Screen
+   * User shall create the workout description with the image
+ * Profile Screen
+   * User shall create the profile or view profile with
 
 ## Wireframes
 [Add picture of your hand sketched wireframs in this section]
