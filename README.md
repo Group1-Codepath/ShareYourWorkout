@@ -3,9 +3,9 @@ A simple application that lets users create workouts and share with others.
 
 ## Table of Contents
 1.[Overview](#Overview)
-2.[Product Spec](#Product-Spec)
-3.[Wireframs](#Wireframes)
-4.[Schema](#Schema)
+1.[Product Spec](#Product-Spec)
+1.[Wireframs](#Wireframes)
+2.[Schema](#Schema)
 
 ## Overview
 ### Description
