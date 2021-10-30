@@ -67,7 +67,8 @@ This app allows users to create and account and then login. Logged in user can c
 ## Wireframes
 [Add picture of your hand sketched wireframs in this section]
 [insert image here]
-![image](https://user-images.githubusercontent.com/66568997/139554048-d8349d82-0f5d-4b79-95e4-6de8accf8fa1.png)
+![image](https://user-images.githubusercontent.com/66568997/139554883-f2877f26-f539-4511-ad2c-5ac052f07124.png)
+
 
 
 ### [Bonus] Digital Wireframes & Mockups
