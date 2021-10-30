@@ -9,10 +9,10 @@ A simple application that lets users create workouts and share with others.
 
 ## Overview
 ### Description
-[Description of the app]
+This app allows users to create and account and then login. Logged in user can create a workout and share it with others.
 
 ### App Evaluation
-- **Category:** this is the category...
+- **Category:** Fitness
 - **Mobile:**
 - **Story:**
 - **Market:**
@@ -21,18 +21,37 @@ A simple application that lets users create workouts and share with others.
 
 ## Product Spec
 
-### 1. User Stories 
-**Required Must-have Stories**  
+### 1. User Stories
+**Required Stories**
+ -User can register for an account.
+ -User can login.
+ -User can create a new workout.
+ -User can add a workout to their profile and view all the added workouts.
+ -Users can view workouts created by all other users.
+
 **Optional Nice-to-have Stories**
+ -User can comment on the workout.
+ -User can Like or Dislike a workout.
+ 
 ### 2. Screen Archetypes
-* [First screen here]
-  * [List required story here]
+* [Login]
+  * [User can login]
+* [Register]
+  * [User can register for an account]
+* [Stream]
+  * [Users can view workouts created by all other users]  
+* [Create]
+  * [User can create a new workout]
+* [Profile]
+  * [User can add a workout to their profile and view all the added workouts]  
 
 ### 3. Navigation
 **Tab Navigation** (Tab to Screen)
-* [First tab]
-* [Second tab here]
-* [And you guessed it, third one is right here]
+* [Home]
+  - Displays all the workouts.
+* [Create]
+  - Allows user to create a workout.
+* [Profile]
 
 **Flow Navigation** (Screen to screen)
 * [list first screen here]
