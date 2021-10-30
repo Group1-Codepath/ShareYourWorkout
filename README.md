@@ -52,16 +52,23 @@ This app allows users to create and account and then login. Logged in user can c
 * [Create]
   - Allows user to create a workout.
 * [Profile]
+ -Allows the user to create a profile
 
 **Flow Navigation** (Screen to screen)
-* [list first screen here]
-   * [list screen navigation here]
-* [List second screen here]
-   * [list screen navigation here]
+* [Login/Register Screen]
+   * [Once  user login/Rgister shall navigate to Home screen]
+* [Home Screen]
+   * [User shall view the bottom navigation of home, create, profile]
+* [Create Screen]
+   * [User shall create the workout description with the image]
+ * [Profile Screen]
+   * [User shall create the or view profile with]
 
 ## Wireframes
 [Add picture of your hand sketched wireframs in this section]
 [insert image here]
+![image](https://user-images.githubusercontent.com/66568997/139554048-d8349d82-0f5d-4b79-95e4-6de8accf8fa1.png)
+
 
 ### [Bonus] Digital Wireframes & Mockups
 
