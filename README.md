@@ -62,12 +62,13 @@ This app allows users to create and account and then login. Logged in user can c
 * [Create Screen]
    * [User shall create the workout description with the image]
  * [Profile Screen]
-   * [User shall create the or view profile with]
+   * [User shall create the profile or view profile with]
 
 ## Wireframes
 [Add picture of your hand sketched wireframs in this section]
 [insert image here]
-![image](https://user-images.githubusercontent.com/66568997/139554883-f2877f26-f539-4511-ad2c-5ac052f07124.png)
+![image](https://user-images.githubusercontent.com/66568997/139555078-25321394-f81c-402c-81f9-6d475c523f12.png)
+
 
 
 
