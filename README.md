@@ -18,3 +18,21 @@ A simple application that lets users create workouts and share with others.
 - **Market:**
 - **Habit:**
 - **Scope:**
+
+## Product Spec
+
+### 1. User Stories 
+**Required Must-have Stories**
+**Optional Nice-to-have Stories**
+### 2. Screen Archetypes
+* [First screen here]
+  * [List required story here]
+
+### 3. Navigation
+**Tab Navigation** (Tab to Screen)
+* [First tab]
+* [Second tab here]
+* [And you guessed it, third one is right here]
+
+**Flow Navigation** (Screen to screen)
+* [list first screen here]
