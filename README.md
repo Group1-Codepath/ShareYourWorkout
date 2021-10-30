@@ -13,11 +13,11 @@ This app allows users to create and account and then login. Logged in user can c
 
 ### App Evaluation
 - **Category:** Fitness
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Mobile:** This app will primarily be used from mobile device in android os.
+- **Story:** Users can create workouts and other users can view and follow the workouts.
+- **Market:** Any one can use this app after creating an account.
+- **Habit:** People who like to discover new workouts can find this app useful.
+- **Scope:** This app is mostly targeted towards people who like to workout and try different workouts.
 
 ## Product Spec
 
