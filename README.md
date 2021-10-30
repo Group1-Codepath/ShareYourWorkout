@@ -11,3 +11,10 @@ A simple application that lets users create workouts and share with others.
 ### Description
 [Description of the app]
 
+### App Evaluation
+- **Category:** this is the category...
+- **Mobile:**
+- **Story:**
+- **Market:**
+- **Habit:**
+- **Scope:**
