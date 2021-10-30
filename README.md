@@ -36,3 +36,23 @@ A simple application that lets users create workouts and share with others.
 
 **Flow Navigation** (Screen to screen)
 * [list first screen here]
+   * [list screen navigation here]
+* [List second screen here]
+   * [list screen navigation here]
+
+## Wireframes
+[Add picture of your hand sketched wireframs in this section]
+[insert image here]
+
+### [Bonus] Digital Wireframes & Mockups
+
+### [Bonus] Interactive prototype
+
+## Schema
+[This section will be completed in unit 9]
+### Models
+[Add table of models]
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for ech parse network request]
+- [Optional; List endpoints if using existing api such as yelp]
