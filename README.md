@@ -22,7 +22,7 @@ A simple application that lets users create workouts and share with others.
 ## Product Spec
 
 ### 1. User Stories 
-**Required Must-have Stories**
+**Required Must-have Stories**  
 **Optional Nice-to-have Stories**
 ### 2. Screen Archetypes
 * [First screen here]
