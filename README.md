@@ -79,17 +79,55 @@ This app allows users to create and account and then login. Logged in user can c
 ## Schema
 [This section will be completed in unit 9]
 ### Models
-[Add table of models]
-Hello there	this	is
-		
-		
-		
-		
-		
-		
-		
+[Post (Create Account)]
 
+	Property	Type	Description
+	objectId	String	unique id for the user post(default field)
+	username	String	unique username to each user
+	password	String 	unique password to each user
+	
+
+[Post (Create Workout Info)]
+
+	Property	Type	Description
+	objectId	String	unique id for the user post(default field)
+	Title		String	title written by author
+	Image		File	image that user posts
+	description	String	brief desciption about workout written by user
+
+[Post (Create Profile)]
+
+	Property	Type	Description
+	objectId	String	unique id for the user post(default field)
+	userId		Pointer	user id
+	Image		File	image of user profile
+	Duration	String	users timeperiod since started
+	Experience	String	user experience
+	Gender		String	user gender
+	
+	
+	
+	
 ### Networking
-- [Add list of network requests by screen ]
+- [Home Feed screen]
+
+	-(Read/GET) Query all posts of the user
+		 let query = PFQuery(className:"Post")
+		query.whereKey("author", equalTo: currentUser)
+		query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+		   if let error = error { 
+		      print(error.localizedDescription)
+		   } else if let posts = posts {
+		      print("Successfully retrieved \(posts.count) posts.")
+		  // TODO: Do something with posts...
+		   }
+		}
+-[Create Post Screen] 
+ - (Create/POST) Create a new Workout post object
+
+-[Profile Screen]
+ -(Read/GET) Query logged in user object
+ -(Update/OUT) Updates on the field like profile image and so on
+
 - [Create basic snippets for ech parse network request]
 - [Optional; List endpoints if using existing api such as yelp]
