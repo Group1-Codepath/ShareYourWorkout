@@ -79,49 +79,64 @@ This app allows users to create and account and then login. Logged in user can c
 ## Schema
 [This section will be completed in unit 9]
 ### Models
-[Post (Create Account)]
+####Post 
+ | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by author |
+   | comments | Array of Comments  | comments that have been posted to an image |
+   | likesCount    | Number   | number of likes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 
-	Property	Type	Description
-	objectId	String	unique id for the user post(default field)
-	username	String	unique username to each user
-	password	String 	unique password to each user
+####User
+ | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | username       | String  | unique username to each user |
+   | password        | String     |  unique password to each user |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 	
+####Workout
+  | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | Title       | String  | title written by author |
+   | Image        | File     |  image that user posts |
+   | description       | String     |  brief desciption about workout written by user |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 
-[Post (Create Workout Info)]
+####Profile
+ | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | userId	   | Pointer | user id |
+   | Image        | File     |  image of user profile |
+   | Duration       | String     |  users timeperiod since started |
+   | Experience     | String     |  user experience |
+   | Gender       | String     |  user gender |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 
-	Property	Type	Description
-	objectId	String	unique id for the user post(default field)
-	Title		String	title written by author
-	Image		File	image that user posts
-	description	String	brief desciption about workout written by user
 
-[Post (Create Profile)]
+### Networking 
+-Home Feed screen  
+ -(Read/GET) Query all posts of the user  
+  -let query = PFQuery(className:"Post")  
+    query.whereKey("author", equalTo: currentUser)  
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in  
+     if let error = error {   
+       print(error.localizedDescription)  
+      } else if let posts = posts {  
+         print("Successfully retrieved \(posts.count) posts.")  
+	 // TODO: Do something with posts...  
+	  }  
+	}
 
-	Property	Type	Description
-	objectId	String	unique id for the user post(default field)
-	userId		Pointer	user id
-	Image		File	image of user profile
-	Duration	String	users timeperiod since started
-	Experience	String	user experience
-	Gender		String	user gender
-	
-	
-	
-	
-### Networking
-- [Home Feed screen]
-
-	-(Read/GET) Query all posts of the user
-		 let query = PFQuery(className:"Post")
-		query.whereKey("author", equalTo: currentUser)
-		query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-		   if let error = error { 
-		      print(error.localizedDescription)
-		   } else if let posts = posts {
-		      print("Successfully retrieved \(posts.count) posts.")
-		  // TODO: Do something with posts...
-		   }
-		}
 -[Create Post Screen] 
  - (Create/POST) Create a new Workout post object
 
