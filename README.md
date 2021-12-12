@@ -23,11 +23,11 @@ This app allows users to create and account and then login. Logged in user can c
 
 ### 1. User Stories
 **Required Stories**
- * User can register for an account.
- * User can login.
- * User can create a new workout.
- * User can add a workout to their profile and view all the added workouts.
- * Users can view workouts created by all other users.
+ [x] User can register for an account.
+ [x] User can login.
+ [x] User can create a new workout.
+ [x] User can add a workout to their profile and view all the added workouts.
+ [x] Users can view workouts created by all other users.
 
 **Optional Nice-to-have Stories**
  * User can comment on the workout.
